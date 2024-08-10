@@ -1,0 +1,384 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+                      /*start the header part  */
+header{
+width: 100%;
+height: 150px;
+background-color: lightgray;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+#mobile{
+display: none;
+}
+header img{
+margin-left: 70px;
+height: 90px;
+width: 250x;
+}
+nav ul{
+display: flex;
+list-style: none;
+gap: 30px;
+margin-right: 100px;
+}
+nav ul>li>a{
+color: black;
+text-decoration: none;
+}
+nav ul>li>a:hover{
+color: darkcyan;
+text-decoration: underline;
+}                            
+/* complited thye header part */
+/* start the section part */
+.container{
+height: 600px;
+width: 100%;
+background-image: url("./img/img/bg-img.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.btn{
+position: relative;
+left:90px;
+bottom: 35px;
+text-decoration: none;
+ }
+.container1{
+padding: 100px;
+}  
+ /*complited the section part  */
+/* start the six boxes */                
+.sixboxes{
+display: flex;
+gap:20px;
+justify-content: center;
+flex-wrap: nowrap; 
+}
+.six{
+position: relative;
+border: 1px solid black ;
+padding:5px;
+margin:10px;
+display: flex;
+box-shadow: none; 
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+height: 200px;
+width: 200px;
+border-radius: 5px;
+}
+/* complited the six boxes */
+/* start the 8 boxes */
+.boxes{
+display: flex;
+justify-content: space-evenly;
+}
+.box{
+border:1px solid gray;
+padding:10px 10px 35px 10px;
+border-radius:5px ;
+position: relative; 
+}
+.cart-icon{
+position: absolute;
+right: 25px;
+bottom: 18px;
+color:green; 
+}  
+.box input{
+width: 30px;
+height: 30px;
+border-radius: 20px;
+position: absolute; 
+left: 175px;
+bottom: 15px;
+background-color: rgb(166, 227, 166);
+border-style: none;} 
+.homeban{
+height: 150px;
+background-image: url("./img/img/banner/b2.jpg");
+background-repeat: no repeat;
+background-size: contain;
+}
+/* complited the 8 boxes */
+/*  start the banner part */    
+.ban1{
+height:250px ;
+width: 600px;
+background-image: url("./img/img/banner/b17.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+margin-left: 150px;
+padding: 80px 0px 20px 40px;
+}
+.ban2{
+height:300px ;
+width: 600px;
+background-image: url("./img/img/banner/b10.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+margin-left: 700px;
+padding: 100px 0px 20px 40px;
+}
+.poster{
+display: flex;
+justify-content: space-evenly;
+}
+.poster1{
+height: 200px;
+width: 350px;
+background-image: url("./img/img/banner/b7.jpg");
+background-size:contain ;
+background-repeat: no-repeat;
+padding:50px 0px 0px 30px;
+margin-left: 0px;
+}
+.poster2{
+height: 200px;
+width: 370px;
+background-image: url("./img/img/banner/b4.jpg");
+background-size:contain;
+background-repeat: no-repeat;
+padding:50px 0px 0px 30px;
+margin-left: 0px;
+}.poster3{
+height: 200px;
+width: 330px;
+background-image: url("./img/img/banner/b18.jpg");
+background-size:contain ;
+background-repeat: no-repeat;
+padding:50px 0px 0px 30px;
+}
+button{
+border-color: white;
+color: white;
+text-decoration: solid white;
+}
+
+/* complited the banner part */
+/* start the footer part */
+.bluebanner {
+height: 150px;
+width: 100%;
+background-color:darkblue;
+background-image: url(./img/img/banner/b14.png);
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+}
+.blueban1{
+margin-left: 80px;
+}
+.banner2{
+display: flex;
+margin-left: 80px;
+padding: 50px;
+}
+.footer{
+display: flex;
+justify-content: space-evenly;
+gap:30px;
+}
+                              /* complited the home page */
+                              /* start the shop page */
+.redbaner{
+height: 200px; 
+width:100%;
+background-image: url("./img/img/banner/b1.jpg");
+background-repeat: no-repeat;
+background-position: auto;
+background-size: cover;
+}
+
+                   /* complited the shop page */
+                  /* start the blog page */
+.blogbaner{
+height:300px;
+background-image: url("./img/img/banner/b19.jpg");
+background-repeat: no-repeat;
+background-position:contain;
+}
+.fivebaners{
+display: flex;
+gap:20px;
+justify-content: center;
+align-items: center;
+justify-content: space-evenly;
+margin:20px;
+}
+.b1 {
+height: 300px; 
+width: 500px;
+background: url("./img/img/blog/b1.jpg") no-repeat center/cover;
+}.b2{
+height: 300px; 
+width: 500px;
+background: url("./img/img/blog/b2.jpg") no-repeat center/cover;
+}
+.b3{
+height: 300px; 
+width: 500px;
+background: url("./img/img/blog/b3.jpg") no-repeat center/cover;
+}.b4{
+height: 300px; 
+width: 500px;
+background: url("./img/img/blog/b4.jpg") no-repeat center/cover;
+}
+.b5{
+height: 300px; 
+width: 500px;
+background: url("./img/img/blog/b6.jpg") no-repeat center/cover;
+}
+ 
+                      /* complited the blog */
+                      /* start the about */
+
+.aboutbaner{
+height: 150px;
+background: url("./img/img/about/banner.png") no-repeat center/cover
+}
+.blog1{
+height: 350px;
+width: 450px; 
+background-image: url("./img/img/about/a6.jpg");
+background-repeat: no-repeat;
+background-position: cover;
+background-size: 100% 100%;
+}
+.blog{
+display: flex;
+justify-content: space-evenly;
+}
+video{
+height: 500px;
+width:500px; 
+} 
+                 /* complited the about */
+                /* start the contact us */
+
+
+.contactbanner{
+height: 170px;
+background: url("./img/img/about/banner.png") no-repeat center/cover;
+}
+             /* complited the contact us */
+            /* start the contact */
+.mapping{
+display: flex;
+justify-content: space-around;
+margin:50px 0px 50px 0px;
+} 
+.map{
+background: url(./img/img/people/map.jpg) no-repeat center/cover;
+height: 300px;
+width: 300px;
+} 
+.people1-img{
+height:100px;
+width:100px;
+background: url("./img/img/people/1.png") no-repeat center/cover;
+}
+.people2-img{
+height:100px;
+width:100px;
+background: url("./img/img/people/2.png") no-repeat center/cover;
+}         
+.people3-img{
+height:100px;
+width:100px;
+background: url("./img/img/people/3.png") no-repeat center/cover;
+}
+.people1{
+display:flex;
+margin:8px;
+}
+.address{
+display:flex;
+justify-content: space-evenly;
+border:1px solid black;
+margin:50px;
+padding:50px 0px;
+}
+.contact_input input,textarea{
+padding:5px 200px 5px 5px;
+  }
+            /*complited the contact  */
+            /* start the cart  */
+.cartbaner{
+height: 170px;
+background: url("./img/img/about/banner.png") no-repeat center/cover;
+}        
+.table2{
+height:200px;
+width:500px;
+border:1px solid black;
+padding:40px;
+}
+.table1{
+display:flex;
+justify-content: space-evenly;
+margin-top: 40px;
+}
+        /* complited the cart */
+        /* start the product */
+.tshirt{
+height: 400px;
+width: 400px;
+background-image: url("./img/img/products/f1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.tshirts{
+display: flex;
+gap:64px;
+}
+.product{
+display: flex;
+margin-left: -180px; 
+}
+.product3{
+margin-left: 80px;
+}
+.product1{
+margin-left: 300px;
+}
+.productdetails{
+height: 300px;
+width: 600px;
+}
+
+  
+            /* complited the product */
+  
+
+  
+    
+
+
+
+
+    
+
+
+  
+  
+
+        
+    
+    
+    
+    
+
+
+
